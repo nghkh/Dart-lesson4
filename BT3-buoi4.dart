@@ -16,7 +16,7 @@ void main() {
   print(list2); // in ra mảng chứa các số nguyên tố
 }
 
-dynamic Checkprime(int value) {
+bool Checkprime(int value) {
   if (value < 2) {
     return false;
   }
@@ -27,5 +27,6 @@ dynamic Checkprime(int value) {
       return true;
     }
   }
+  return true;
 }
 // hàm check số nguyên tố
